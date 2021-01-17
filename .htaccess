@@ -1,0 +1,9 @@
+php_value date.timezone Europe/Moscow
+AddDefaultCharset UTF-8
+
+Options +FollowSymLinks
+IndexIgnore */*
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/(public)
+RewriteRule (.*) /public/$1
