@@ -8,6 +8,7 @@
 /public/sitemap.xml
 /storage/*.key
 /vendor
+/nova
 /.idea
 .env
 .env.backup
